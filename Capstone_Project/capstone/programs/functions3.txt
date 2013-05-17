@@ -1,0 +1,38 @@
+#include <iostream>
+using namespace std;
+
+//Function Prototypes
+void drawSquare ( int size );
+void drawSquare ( int size , char element );
+
+int main(){
+	
+	drawSquare ( 4 );
+	cout << endl;
+	drawSquare ( 5 , '#' );
+	
+	return 0;
+}
+
+void drawSquare ( int size )
+{
+	for ( int row = 0 ; row < size ; row++ )
+	{
+		for ( int col =  0 ; col < size ; col++ )
+		{
+			cout << " *";
+		}
+		cout << endl;
+	}
+}
+void drawSquare ( int size , char element)
+{
+	for ( int row = 0 ; row < size ; row++ )
+	{
+		for ( int col =  0 ; col < size ; col++ )
+		{
+			cout << " " << element;
+		}
+		cout << endl;
+	}
+}

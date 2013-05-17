@@ -1,0 +1,22 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main(){
+
+//initializing string variable 'sVal0'
+	string sVal0;
+//initializing string variable 'sVal1' and assigning it the value 'world'
+	string sVal1 = "world";
+	
+//assigning 'sVal0' the value 'hello '
+	sVal0 = "hello ";
+	
+//outputing data to the screen
+	cout<< "sVal0: " << sVal0 << endl;
+	cout<< "sVal1: " << sVal1 << endl;
+	cout<< sVal0 << sVal1 << endl;
+
+	
+	return 0;
+}

@@ -1,0 +1,40 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+
+//initiallizing variables
+	int num1 = 21;
+	int num2 = 3;
+	
+	int add = 0;
+	int subt = 0;
+	int mult = 0;
+	int div = 0;
+	int modu = 0;
+
+//Addition assignment expression	
+	add = num1 + num2;
+	
+//Subtraction assignment expression	
+	subt = num1 - num2;
+
+//Multiplication assignment expression 
+	mult = num1 * num2;
+	
+//Division assignment expression	
+	div = num1 / num2;
+
+//Modulus assignment expression 
+	modu = num1 % num2;
+	
+//print results
+	cout<<"Addition Result: " << add << endl;
+	cout<<"Subtraction Result: " << subt << endl;
+	cout<<"Multiplication Result: " << mult << endl;
+	cout<<"Division Result: " << div << endl;
+	cout<<"Modulus Result: " << modu << endl;
+	
+	
+	return 0;
+}

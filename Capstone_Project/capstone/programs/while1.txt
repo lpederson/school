@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	int x = 10;
+	cout << "X: ";
+	while(x > 0){
+		cout << x << " ";
+		x--; 
+		//Which is equivalent to: 
+		//x = x - 1;
+	}
+	
+	return 0;
+}

@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int sumTwoIntegers ( int v1, int v2 )
+{
+	return v1 + v2;
+}
+
+int main(){
+	
+	//Here we initialize the variables in succession
+	int value1 = 1, value2 = 3;
+	int sum;
+	
+	sum = sumTwoIntegers ( value1 , value2 );
+	cout << "Sum: " << sum << endl;
+	
+	//We don't need to assign the return value to a variable
+	cout << "Sum: " << sumTwoIntegers ( 99  , 1 ) << "\n";
+	
+	return 0;
+}

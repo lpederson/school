@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+
+//initializing double variable 'dVal0'
+	double dVal0;
+//initializing double variable 'dVal1' and assigning it the value '7.7'
+	double dVal1 = 7.7;
+	
+//assigning 'dVal0' the value '3.656'
+	dVal0 = 3.656;
+	
+//outputing data to the screen
+	cout<< "dVal0: " << dVal0 << endl;
+	cout<< "dVal1: " << dVal1 << endl;
+	
+	return 0;
+}

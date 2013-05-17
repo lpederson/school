@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+
+//initializing character variable 'cVal0'
+	char cVal0;
+//initializing character variable 'cVal1' and assigning it the value 's'
+	char cVal1 = 's';
+	
+//assigning 'cVal0' the value 'k'
+	cVal0 = 'k';
+	
+//outputing data to the screen
+	cout<< "cVal0: " << cVal0 << endl;
+	cout<< "cVal1: " << cVal1 << endl;
+	
+	return 0;
+}

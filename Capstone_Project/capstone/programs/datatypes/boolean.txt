@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+
+//initializing boolean variable 'bVal0'
+	bool bVal0;
+//initializing boolean variable 'bVal1' and assigning it the value 'true'
+	bool bVal1 = 1;
+	
+//assigning 'bVal0' the value 'false'
+	bVal0 = false;
+	
+//outputing data to the screen
+	cout<< "bVal0: " << bVal0 << " (false)" << endl;
+	cout<< "bVal1: " << bVal1 << " (true)" << endl;
+
+	return 0;
+}

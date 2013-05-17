@@ -1,0 +1,45 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	
+	//This is a variable of type int
+	int x = 4;
+	
+	//This is a pointer to a memory address that contains an int
+	int * p;
+	
+	
+	/* 
+	We assign the memory address of x to the pointer 
+	using the '&' symbol. The '&' symbol returns the memory 
+	address of a variable or object.
+	*/
+	p = &x;
+
+	/*
+	Here we are printing the value of our pointer,
+	the memory address of x.
+	*/
+	cout << "Value of our pointer: ";
+	cout << p << "\n";
+	
+	/*
+	Here we are dereferencing the pointer to get the 
+	value from the memory address it is pointing to.
+	*/
+	cout << "Value in the memory address stored in our pointer (value of x): ";
+	cout << * p << endl << endl;
+	
+	//Summarized version
+	cout << "x" << endl <<  
+		"address: " << &x << endl <<
+		"value: " << x << endl << endl;
+		
+	cout << "p" << endl <<
+		"address: " << &p << endl << 
+		"value: " <<  p << " (the address of x)" << endl << 
+		"deferenced value: " << *p << " (the value of x)"   << endl;
+	
+	return 0;
+}

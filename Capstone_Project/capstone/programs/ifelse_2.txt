@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	int x = 24;
+	//Uncomment the next line to evaluate to false
+	//x = 23;
+	if (x == 24)
+	{
+		cout << "x is 24";
+		}
+	else
+	{
+		cout << "x is not 24";
+	}
+	
+	return 0;
+}

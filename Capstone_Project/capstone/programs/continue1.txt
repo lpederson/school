@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	for( int i = 5 ; i > 0 ; i-- )
+	{
+		//The continue keyword forces the loop 
+		//to begin the next iteration of the loop.
+		if ( i == 3 )
+			continue;
+			
+		//This is not executed when i equals 3
+		cout << i << " ";
+	}
+	
+	return 0;
+}

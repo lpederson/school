@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+//A function prototype
+int product ( int value1 , int value2 );
+
+//When a prototype is provided the compiler looks 
+//for the function definition later in the file
+
+int main()
+{
+	cout << "Product: " << product ( 4 , 5 );
+	return 0;
+}
+
+//The function definition
+int product ( int value1 , int value2 )
+{
+	return value1 * value2;
+}

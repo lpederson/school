@@ -1,0 +1,52 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	bool val1 = true;
+	bool val2 = false;
+
+// Both comparisons must be true (AND)
+	if((val1 == true) && (val2 == true))
+	{
+	  cout<< "(if) AND - both conditions were met" <<endl;
+	}
+	else
+	{
+	  cout<< "(else) AND - both conditions were not met." << endl;
+	}
+
+// Only one comparison must be true (OR)
+	if((val1 == true) || (val2 == true))
+	{
+	  cout<< "(if) OR - atleast 1 condition was met." <<endl;
+	}
+	else
+	{
+	  cout<< "(else) OR - no conditions were met." << endl;
+	}
+
+	///////////////////////////////	
+	//Inverting comparisons (NOT)//
+	///////////////////////////////
+
+// Both comparisons must be true (AND)
+	if((val1 == true) && (!val2 == true))
+	{
+	  cout<< "(if) AND - both conditions were met" <<endl;
+	}
+	else
+	{
+	  cout<< "(else) AND - both conditions were not met." << endl;
+	}
+
+// Only one comparison must be true (OR)
+	if((!val1 == true) || (val2 == true))
+	{
+	  cout<< "(if) OR - atleast 1 condition was met." <<endl;
+	}
+	else
+	{
+	  cout<< "(else) OR - no conditions were met." << endl;
+	}	
+	return 0;
+}

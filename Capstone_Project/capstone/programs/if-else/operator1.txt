@@ -1,0 +1,40 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+
+	int iVal1 = 10;
+	int iVal2 = 10;
+	int iVal3 = 15;
+	double dVal1 = 40.1;
+
+//Testing the Equals (==) and Not Equals
+	if(iVal1 == iVal2)
+	{
+		cout<< "iVal1 equals iVal2." << endl;
+	}
+	if(iVal1 != iVal3)
+	{
+		cout<< "iVal1 does NOT equal iVal3." << endl;
+	}
+//Testing Greater Than (>) and Less Than (<)	
+	if(iVal1 > iVal3)
+	{
+		cout<< "iVal1 is greater than iVal3." << endl;
+	}
+	if(iVal1 < iVal3)
+	{
+		cout<< "iVal1 is less than iVal3." << endl;
+	}
+
+//Testing Greater Than or Equal To (>=) and Less Than or Equal To (<=)
+	if(dVal1 >= 40)
+	{
+		cout<< "dVal1 is greater than 40." << endl;
+	}
+	if(dVal1 <= 40)
+	{
+		cout<< "dVal1 is less than 40." << endl;
+	}
+	return 0;
+}

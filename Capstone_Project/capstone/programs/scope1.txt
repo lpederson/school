@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int global_var = 10;
+
+int myFunction()
+{
+	return global_var;
+}
+
+int main(){
+	int local_var = 5;
+	
+	if ( global_var == 5 )
+	{
+		int inner_var = myFunction();
+	}
+	//inner_var no longer exists at this point
+	
+	cout << "Global: " << global_var << "\n";
+	cout << "Local: " << local_var << "\n";
+	
+	//This produces an error
+	cout << "Inner: " << inner_var << "\n";
+	
+	return 0;
+}

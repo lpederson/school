@@ -1,0 +1,100 @@
+Introduction
+	Program Translation Steps
+		.cpp - compiler - .obj - linker - .exe
+		whitespaces & semi-colons
+	Running Visual Studio
+		Setting Up Visual Studio Workspace
+	Program Syntax Outline
+		#include <library file>
+		std namespace
+		main() function
+		return
+		indenting & comments
+Variables & Data Types
+	int, char, bool, etc...
+	const modifier, #define, signed/unsigned
+Input & Output
+	cin/cout
+Operators & Expressions
+	Arithmetic
+	Boolean
+Conditional Statements
+	if-else
+	case-switch
+	nested statements
+Loops
+	for
+	while
+	do-while
+	nested loops
+	break, continue
+Functions
+	Predefined 
+		(sqrt(), pow(), isalpha(), etc...)
+	Programmer Designed
+		Abstraction
+		Pass by Value vs. Pass by Reference
+	Local vs. Global Variables
+	Overloading
+	Recursion
+Input/Output Streams
+	iostream - cin/cout
+		cin.get() / cout.put()
+	fstream - if_stream/of_stream
+		.open("filename.ext") / .close()
+		exit(#)
+		.eof()
+
+-----
+Object
+	Member Functions
+	Variables
+Arrays
+	Intro
+		insert, delete
+		address / index & value
+	Functions
+		pass array / pass array cell value
+		return array / return array cell value
+	Multi-dimensional [][]
+	Search / Sort
+Strings
+	C-String <cstring>
+		cin.getline("",#)
+	string object <string>
+		getline(cin, string)
+Pointers
+	Declaring a pointer
+	Dynamic Memory Allocation
+		new & delete
+	Reference (&) vs. Dereference (*)
+	this
+Classes & Objects
+	Declaring an object
+		member functions
+		data members
+	Declaring a Class
+	Instantiating an Object of a class
+
+	Constructors
+	Destructors
+	Copy Constructors
+Inheritance
+	private vs. public vs. protected
+	Base Class vs. Derived Class
+Lists
+	Static vs. Dynamic
+	Ordered vs. Unordered
+Linked List
+Stacks
+Queues
+Binary Trees
+	Search vs Nonrecursive
+	Tree Traversal
+Sorting
+Searching
+Appendix
+	Reserved Keywords
+	ASCII Character Set
+	Glossary
+	

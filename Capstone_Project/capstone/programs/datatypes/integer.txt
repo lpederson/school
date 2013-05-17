@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+
+//initializing integer variable 'iVal0'
+	int iVal0;
+//initializing integer variable 'iVal1' and assigning it the value '7'
+	int iVal1 = 7;
+	
+//assigning 'iVal0' the value '3'
+	iVal0 = 3;
+	
+//outputing data to the screen
+	cout<< "iVal0: " << iVal0 << endl;
+	cout<< "iVal1: " << iVal1 << endl;
+	
+	return 0;
+}

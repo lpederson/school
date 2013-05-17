@@ -1,0 +1,66 @@
+/* == Reset == */
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, font, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-weight: inherit;
+        font-style: inherit;
+        font-family: inherit;
+        vertical-align: baseline;
+    }
+    /* remember to define focus styles! */
+    :focus, :active {
+        outline: 0;
+    }
+    
+a {text-decoration:none;color:#a49D4C;}
+body {font:100% "Helvetica Neue",Helvetica, Arial, sans-serif; color:#fff; background:#222;padding: 30px;display:block;}
+p {margin:10px;}
+
+#header {background: #303030;padding:10px;text-align:center;}
+/* Headings */
+h1 {font-size:2.4em; line-height:1.5em;}
+h2 {font-size:1.8em; line-height:1em; margin-bottom:1em; font-weight:bold; color:#a49D4C;}
+h3 {font-size:1.8em; line-height:1em; margin-bottom:1em; color:#7B8D78;}
+h4 {font-size:1.5em; line-height:1.2em; margin-bottom:1.2em; font-weight:bold; color:#7B8D78;}
+h5 {font-size:1.5em; line-height:1.2em; margin-bottom:1.2em; font-style:italic;}
+h6 {font-size:1.2em; line-height: 1.5em; font-weight:bold;}
+
+h1.center {text-align:center;}
+
+#wrapper * {}
+
+/*  Other divs   */
+#about {margin:40px;width:300px;height:350px;}
+#about * {}
+
+#assignments {margin:20px;width:300px;height:auto;padding-left:20px;}
+
+#labs {margin:20px;width:300px;height:auto;padding-left:20px;}
+
+#nav_main {color:#fff;width:100%;background:#ccc;text-align:center}
+#nav_main ul {color:#202020;list-style-type: none;}
+#nav_main li {display:inline;margin-left:10px;font-weight:bold;}
+#nav_main a {color:#303030;}
+#breadcrumbs a {color:#a49D4C;}
+
+#content {display:block;}
+#content h1 {margin:15px;}
+.box-border {background:#223;border:5px solid white;padding: 10px;}
+.box-border ul {margin-left:40px;}
+
+#bio {width:60%;height:auto;display:block-inline;}
+#bio img {float:left;margin:20px;padding:20px;background:black;}
+#bio h1 {float:center;}
+
+.error {border:2px solid red;}
+
+#nav_footer {}

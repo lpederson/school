@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	int x = 24;
+	//Try uncommenting the next line
+	//x = -24; 
+	//Or this one
+	//x = 0;
+	if (x > 0)
+	{
+		cout << "x is positive";
+	}
+	else
+	{
+		if (x < 0)
+		{
+			cout << "x is negative";
+		}
+		else
+		{
+			cout << "x is 0";
+		}
+	}
+	
+	return 0;
+}
