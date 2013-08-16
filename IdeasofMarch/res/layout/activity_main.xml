@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+	    <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="fill_parent"
+            android:layout_height="56dp"
+            android:src="@drawable/treeslogo" />
+        
+        
+        <LinearLayout 
+	        android:id="@+id/loadingLayout"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:visibility="gone"
+	        android:layout_gravity="center">
+	        
+            <include
+	            android:layout_gravity="center"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        layout="@layout/loading" />
+	        
+    </LinearLayout>
+	   
+        
+		<TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+		
+		<FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+			android:background="@drawable/background_grey"
+            android:layout_height="fill_parent" >
+           
+            
+            <com.handmark.pulltorefresh.library.PullToRefreshListView
+	            android:id="@+id/listViewNews"
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent"
+	            android:cacheColorHint="@android:color/transparent"
+	            android:divider="@color/blue_light"
+	            android:dividerHeight="3px" />
+            
+        	<com.handmark.pulltorefresh.library.PullToRefreshListView
+	            android:id="@+id/listViewUpdates"
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent"
+	            android:cacheColorHint="@android:color/transparent"
+	            android:divider="@color/blue_light"
+	            android:dividerHeight="3px" />
+- 
+            <com.handmark.pulltorefresh.library.PullToRefreshListView
+	            android:id="@+id/listViewCopLog"
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent"
+	            android:cacheColorHint="@android:color/transparent"
+	            android:divider="@color/blue_light"
+	            android:dividerHeight="3px" />
+            
+            <com.handmark.pulltorefresh.library.PullToRefreshListView
+	            android:id="@+id/listViewEvents"
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent"
+	            android:cacheColorHint="@android:color/transparent"
+	            android:divider="@color/blue_light"
+	            android:dividerHeight="3px" />
+        </FrameLayout>
+        
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:orientation="vertical"
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent">
+		<com.google.ads.AdView 
+            xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_height="wrap_content"
+            ads:adUnitId="a15144e917e69cb"
+            ads:adSize="BANNER"
+            ads:loadAdOnCreate="true"/>
+		
+    </RelativeLayout>
+
+</TabHost>

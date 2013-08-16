@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="100dp"
+    android:gravity="center_horizontal|fill_horizontal"
+    android:orientation="horizontal"
+    android:layout_marginTop="5dip"
+    android:background="@drawable/list_selector">
+    
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Large Text"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+    
+    
+    <ImageView
+        android:id="@+id/imageViewArticle"
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/image"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textViewTitle"
+        android:layout_gravity="center"
+        android:padding="5px"/>	
+    
+    <TextView
+        android:id="@+id/textViewArticle"
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:layout_weight="0.8"
+        android:gravity="center_vertical"
+        android:layout_below="@id/textViewTitle"
+        android:inputType="textMultiLine"
+        android:text="TextView"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@android:color/black" />
+
+</RelativeLayout>
