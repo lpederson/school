@@ -1,0 +1,297 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<photoCollection mode="publish">
+	<display>
+		<style cellBorderColor="#959595" cellRolloverColor="#a1a1a1" cssVersion="129676397147766847" idplateEnabled="false" 			css="
+				#previewFull {background-color: #666666 !important; width: 941px !important; color: inherit}
+				#liveUpdateContactInfo {color: #ffffbb !important; background-color: inherit;}
+				.borderRightDotted {border-right: 1px dotted #959595 !important;}
+				.logo {display: none !important;}
+				#liveUpdateCollectionDescription {color: #ffffbb !important; background-color: inherit;}
+				.detailNav, .detailLinks, #detailCaption, #detailTitle {color: #c0c0c0 !important; background-color: inherit;}
+				.emptyThumbnail {background-color: #606060 !important; color: inherit;}
+				.thumbnail {background-color: #606060 !important; color: inherit;}
+				.previewFullImage {height: 911px !important; width: 941px !important;}
+				#stage2 {width: 941px !important;}
+				.itemNumber {display: none !important; color: #9c9c9c !important; background-color: inherit;}
+				#content {background-color: #000000 !important; color: inherit;}
+				.borderTopLeft {border-top: 1px solid #959595 !important; border-left: 1px solid #959595 !important;}
+				#stage {width: 484px !important;}
+				.caption {color: #ffffbb !important; background-color: inherit;}
+				#wrapper2 {width: 941px !important;}
+				.borderBottomRight {border-right: 1px solid #959595 !important; border-bottom: 1px solid #959595 !important;}
+				#wrapper {width: 484px !important;}
+				#liveUpdateCollectionTitle {color: #ffffbb !important; background-color: inherit;}
+				.paginationLinks, .pagination, #liveUpdatePagination {color: #ffffbb !important; background-color: inherit;}
+				.selectedThumbnail, .thumbnail:hover {background-color: #a1a1a1 !important; color: inherit;}
+				#liveUpdateSiteTitle {color: #ffffbb !important; background-color: inherit;}
+				#thumbnailName {color: #c0c0c0 !important; background-color: inherit;}
+				#largeName {color: #c0c0c0 !important; background-color: inherit; margin-top: 10px; margin-left: 7px; margin-right: 7px;}
+				.borderBottom {border-bottom: 1px solid #959595 !important;}
+				.borderRight {border-right: 1px solid #959595 !important;}
+				body {background-color: #000000 !important; color: inherit;}
+			"
+		identityPlateAbsolutePath="" 
+numCols="3" 
+numRows="3" 
+homePage="index.html" 
+imageBase="content" 
+cellColor="#606060">
+		</style>
+		<metadata>
+			<creationDate formatted="Thu Feb 03 2011 12:12:51 GMT-0800"></creationDate>
+			<groupTitle value="The Pederson Collection"></groupTitle>
+			<contactInfo value="Luke Pederson" link="mailto:lpederson@csumb.edu"></contactInfo>
+			<siteTitle value="Gallery o&#39; Life"></siteTitle>
+			<groupDescription value="Places I&#39;ve been and things I&#39;ve done"></groupDescription>
+		</metadata>
+		<localization>
+			<item id="AdobeLightroomWebSite" localized="http://labs.adobe.com/technologies/lightroom/"></item>
+			<item id="AdobeLightroomBeta" localized="Adobe Lightroom Beta"></item>
+			<item id="Fullsize" localized="Fullsize"></item>
+			<item id="Next" localized="Next"></item>
+			<item id="Previous" localized="Previous"></item>
+			<item id="EmptyGallery" localized="There are no images in this gallery."></item>
+			<item id="more" localized="more"></item>
+			<item id="Index" localized="Index"></item>
+		</localization>
+	</display>
+	<head>
+		<siteTitle></siteTitle>
+		<collectionName></collectionName>
+		<collectionTitle></collectionTitle>
+		<collectionDescription></collectionDescription>
+		<contactInfo></contactInfo>
+		<slideDuration></slideDuration>
+		<sizes>
+			<size name="large" height="911" width="911"></size>
+			<size name="thumb" height="129" width="129"></size>
+		</sizes>
+	</head>
+	<samples totalGallerySize="20" firstSampleIndex="1">
+	<img orientation="BC" imageID="0_1296763971493" filename="_4072811217" tipname="%_tempFileName_4072811217%" >
+		<text>
+			<title></title>
+			<description></description>
+		</text>
+	    <hasfilename>true</hasfilename>
+	    <displayname>Work</displayname>
+	    <displaywidth>941</displaywidth>
+		<rendition path="content/bin/images/large/_4072811217.jpg" height="453" width="604" size="large"></rendition>
+		<rendition path="content/bin/images/thumb/_4072811217.jpg" height="96" width="129" size="thumb"></rendition>
+	</img>
+	<img orientation="BC" imageID="1_1296763971493" filename="_2435314168" tipname="%_tempFileName_2435314168%" >
+		<text>
+			<title></title>
+			<description></description>
+		</text>
+	    <hasfilename>true</hasfilename>
+	    <displayname>My hometown</displayname>
+	    <displaywidth>941</displaywidth>
+		<rendition path="content/bin/images/large/_2435314168.jpg" height="478" width="720" size="large"></rendition>
+		<rendition path="content/bin/images/thumb/_2435314168.jpg" height="85" width="129" size="thumb"></rendition>
+	</img>
+	<img orientation="BC" imageID="2_1296763971493" filename="_2638591054" tipname="%_tempFileName_2638591054%" >
+		<text>
+			<title></title>
+			<description></description>
+		</text>
+	    <hasfilename>true</hasfilename>
+	    <displayname>Angel Flip</displayname>
+	    <displaywidth>941</displaywidth>
+		<rendition path="content/bin/images/large/_2638591054.jpg" height="453" width="604" size="large"></rendition>
+		<rendition path="content/bin/images/thumb/_2638591054.jpg" height="96" width="129" size="thumb"></rendition>
+	</img>
+	<img orientation="BC" imageID="3_1296763971493" filename="_5804581483" tipname="%_tempFileName_5804581483%" >
+		<text>
+			<title></title>
+			<description></description>
+		</text>
+	    <hasfilename>true</hasfilename>
+	    <displayname>Being a guy</displayname>
+	    <displaywidth>941</displaywidth>
+		<rendition path="content/bin/images/large/_5804581483.jpg" height="453" width="604" size="large"></rendition>
+		<rendition path="content/bin/images/thumb/_5804581483.jpg" height="96" width="129" size="thumb"></rendition>
+	</img>
+	<img orientation="BC" imageID="4_1296763971493" filename="_1634903732" tipname="%_tempFileName_1634903732%" >
+		<text>
+			<title></title>
+			<description></description>
+		</text>
+	    <hasfilename>true</hasfilename>
+	    <displayname>Snowed in</displayname>
+	    <displaywidth>941</displaywidth>
+		<rendition path="content/bin/images/large/_1634903732.jpg" height="453" width="604" size="large"></rendition>
+		<rendition path="content/bin/images/thumb/_1634903732.jpg" height="96" width="129" size="thumb"></rendition>
+	</img>
+	<img orientation="BC" imageID="5_1296763971493" filename="_3902580080" tipname="%_tempFileName_3902580080%" >
+		<text>
+			<title></title>
+			<description></description>
+		</text>
+	    <hasfilename>true</hasfilename>
+	    <displayname>Life goes on</displayname>
+	    <displaywidth>941</displaywidth>
+		<rendition path="content/bin/images/large/_3902580080.jpg" height="453" width="604" size="large"></rendition>
+		<rendition path="content/bin/images/thumb/_3902580080.jpg" height="96" width="129" size="thumb"></rendition>
+	</img>
+	<img orientation="BC" imageID="6_1296763971508" filename="_2266706243" tipname="%_tempFileName_2266706243%" >
+		<text>
+			<title></title>
+			<description></description>
+		</text>
+	    <hasfilename>true</hasfilename>
+	    <displayname>Dad at the 12 Apostles</displayname>
+	    <displaywidth>941</displaywidth>
+		<rendition path="content/bin/images/large/_2266706243.jpg" height="540" width="720" size="large"></rendition>
+		<rendition path="content/bin/images/thumb/_2266706243.jpg" height="96" width="129" size="thumb"></rendition>
+	</img>
+	<img orientation="BC" imageID="7_1296763971508" filename="_8936523277" tipname="%_tempFileName_8936523277%" >
+		<text>
+			<title></title>
+			<description></description>
+		</text>
+	    <hasfilename>true</hasfilename>
+	    <displayname>Pederson men</displayname>
+	    <displaywidth>941</displaywidth>
+		<rendition path="content/bin/images/large/_8936523277.jpg" height="540" width="720" size="large"></rendition>
+		<rendition path="content/bin/images/thumb/_8936523277.jpg" height="96" width="129" size="thumb"></rendition>
+	</img>
+	<img orientation="BC" imageID="8_1296763971508" filename="_8001658707" tipname="%_tempFileName_8001658707%" >
+		<text>
+			<title></title>
+			<description></description>
+		</text>
+	    <hasfilename>true</hasfilename>
+	    <displayname>Dad</displayname>
+	    <displaywidth>941</displaywidth>
+		<rendition path="content/bin/images/large/_8001658707.jpg" height="720" width="540" size="large"></rendition>
+		<rendition path="content/bin/images/thumb/_8001658707.jpg" height="129" width="96" size="thumb"></rendition>
+	</img>
+	<img orientation="BC" imageID="9_1296763971508" filename="_2047507543" tipname="%_tempFileName_2047507543%" >
+		<text>
+			<title></title>
+			<description></description>
+		</text>
+	    <hasfilename>true</hasfilename>
+	    <displayname>Tough guy</displayname>
+	    <displaywidth>941</displaywidth>
+		<rendition path="content/bin/images/large/_2047507543.jpg" height="540" width="720" size="large"></rendition>
+		<rendition path="content/bin/images/thumb/_2047507543.jpg" height="96" width="129" size="thumb"></rendition>
+	</img>
+	<img orientation="BC" imageID="10_1296763971508" filename="_5952432357" tipname="%_tempFileName_5952432357%" >
+		<text>
+			<title></title>
+			<description></description>
+		</text>
+	    <hasfilename>true</hasfilename>
+	    <displayname>Kill 20 people in 1 bite</displayname>
+	    <displaywidth>941</displaywidth>
+		<rendition path="content/bin/images/large/_5952432357.jpg" height="540" width="720" size="large"></rendition>
+		<rendition path="content/bin/images/thumb/_5952432357.jpg" height="96" width="129" size="thumb"></rendition>
+	</img>
+	<img orientation="BC" imageID="11_1296763971508" filename="_5139249884" tipname="%_tempFileName_5139249884%" >
+		<text>
+			<title></title>
+			<description></description>
+		</text>
+	    <hasfilename>true</hasfilename>
+	    <displayname>Momma and babe</displayname>
+	    <displaywidth>941</displaywidth>
+		<rendition path="content/bin/images/large/_5139249884.jpg" height="540" width="720" size="large"></rendition>
+		<rendition path="content/bin/images/thumb/_5139249884.jpg" height="96" width="129" size="thumb"></rendition>
+	</img>
+	<img orientation="BC" imageID="12_1296763971524" filename="_6656758654" tipname="%_tempFileName_6656758654%" >
+		<text>
+			<title></title>
+			<description></description>
+		</text>
+	    <hasfilename>true</hasfilename>
+	    <displayname>Soak it in</displayname>
+	    <displaywidth>941</displaywidth>
+		<rendition path="content/bin/images/large/_6656758654.jpg" height="453" width="604" size="large"></rendition>
+		<rendition path="content/bin/images/thumb/_6656758654.jpg" height="96" width="129" size="thumb"></rendition>
+	</img>
+	<img orientation="BC" imageID="13_1296763971524" filename="_5065780413" tipname="%_tempFileName_5065780413%" >
+		<text>
+			<title></title>
+			<description></description>
+		</text>
+	    <hasfilename>true</hasfilename>
+	    <displayname>Bros</displayname>
+	    <displaywidth>941</displaywidth>
+		<rendition path="content/bin/images/large/_5065780413.jpg" height="478" width="720" size="large"></rendition>
+		<rendition path="content/bin/images/thumb/_5065780413.jpg" height="85" width="129" size="thumb"></rendition>
+	</img>
+	<img orientation="BC" imageID="14_1296763971524" filename="_6103887933" tipname="%_tempFileName_6103887933%" >
+		<text>
+			<title></title>
+			<description></description>
+		</text>
+	    <hasfilename>true</hasfilename>
+	    <displayname>Cop in training</displayname>
+	    <displaywidth>941</displaywidth>
+		<rendition path="content/bin/images/large/_6103887933.jpg" height="478" width="720" size="large"></rendition>
+		<rendition path="content/bin/images/thumb/_6103887933.jpg" height="85" width="129" size="thumb"></rendition>
+	</img>
+	<img orientation="BC" imageID="15_1296763971524" filename="_9441649133" tipname="%_tempFileName_9441649133%" >
+		<text>
+			<title></title>
+			<description></description>
+		</text>
+	    <hasfilename>true</hasfilename>
+	    <displayname>Click Clack</displayname>
+	    <displaywidth>941</displaywidth>
+		<rendition path="content/bin/images/large/_9441649133.jpg" height="478" width="720" size="large"></rendition>
+		<rendition path="content/bin/images/thumb/_9441649133.jpg" height="85" width="129" size="thumb"></rendition>
+	</img>
+	<img orientation="BC" imageID="16_1296763971524" filename="_2445015248" tipname="%_tempFileName_2445015248%" >
+		<text>
+			<title></title>
+			<description></description>
+		</text>
+	    <hasfilename>true</hasfilename>
+	    <displayname>The Grind</displayname>
+	    <displaywidth>941</displaywidth>
+		<rendition path="content/bin/images/large/_2445015248.jpg" height="453" width="604" size="large"></rendition>
+		<rendition path="content/bin/images/thumb/_2445015248.jpg" height="96" width="129" size="thumb"></rendition>
+	</img>
+	<img orientation="BC" imageID="17_1296763971524" filename="_1395707771" tipname="%_tempFileName_1395707771%" >
+		<text>
+			<title></title>
+			<description></description>
+		</text>
+	    <hasfilename>true</hasfilename>
+	    <displayname>Art</displayname>
+	    <displaywidth>941</displaywidth>
+		<rendition path="content/bin/images/large/_1395707771.jpg" height="453" width="604" size="large"></rendition>
+		<rendition path="content/bin/images/thumb/_1395707771.jpg" height="96" width="129" size="thumb"></rendition>
+	</img>
+	<img orientation="BC" imageID="18_1296763971540" filename="_6518993477" tipname="%_tempFileName_6518993477%" >
+		<text>
+			<title></title>
+			<description></description>
+		</text>
+	    <hasfilename>true</hasfilename>
+	    <displayname>Best day of the year</displayname>
+	    <displaywidth>941</displaywidth>
+		<rendition path="content/bin/images/large/_6518993477.jpg" height="540" width="720" size="large"></rendition>
+		<rendition path="content/bin/images/thumb/_6518993477.jpg" height="96" width="129" size="thumb"></rendition>
+	</img>
+	<img orientation="BC" imageID="19_1296763971540" filename="_9370273028" tipname="%_tempFileName_9370273028%" >
+		<text>
+			<title></title>
+			<description></description>
+		</text>
+	    <hasfilename>true</hasfilename>
+	    <displayname>Nessy&apos;s Lake</displayname>
+	    <displaywidth>941</displaywidth>
+		<rendition path="content/bin/images/large/_9370273028.jpg" height="453" width="604" size="large"></rendition>
+		<rendition path="content/bin/images/thumb/_9370273028.jpg" height="96" width="129" size="thumb"></rendition>
+	</img>
+	</samples>
+	<siteParams>
+		<firstImage index="1"></firstImage>
+		<lastImage index="20"></lastImage>
+		<mode value="all"></mode>
+	</siteParams>
+</photoCollection>
